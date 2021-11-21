@@ -4,22 +4,5 @@
   "repository": "https://github.com/pepesir/kriz-ser-ofc-",
   "logo": "https://c.top4top.io/p_2069qnvob1.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation"],
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
-    }
-  ],
-   "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
-    }
 }
 
